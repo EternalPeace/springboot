@@ -1,0 +1,12 @@
+## 属性
+home:
+  province: 浙江省
+  city: 杭州
+  desc: ${home.province}的${home.city}
+
+## 用户属性
+user:
+  id: ${random.long}
+  age: ${random.int[1,200]}
+  desc: ${random.value}
+  uuid: ${random.uuid}
